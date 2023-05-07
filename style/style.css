@@ -1,0 +1,164 @@
+/* oswald-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/oswald-v49-cyrillic_latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v49-cyrillic_latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* montserrat-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic_latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v25-cyrillic_latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic_latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* header */
+
+header {
+  background-color: rgba(102, 209, 255, 1);
+}
+
+
+.button-start {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgba(6, 13, 16, 1);
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+}
+
+
+.logo {
+  color: rgba(6, 13, 16, 1);
+}
+
+.phone-number {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgba(6, 13, 16, 1);
+  font-size: 28px;
+  line-height: 34px;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* main */
+
+
+.promo-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  line-height: 89px;
+  align-items: center;
+  text-align: center;
+}
+
+
+.promo-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  align-items: center;
+  text-align: center;
+}
+
+
+.service {
+  background-color: rgba(102, 209, 255, .1);
+}
+
+
+.service-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  line-height: 167%;
+  text-align: center;
+}
+
+
+.service-subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  line-height: 167%;
+}
+
+
+.service-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 140%;
+}
+
+.final {
+  background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+}
+.final-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  line-height: 167%;
+  text-align: center;
+}
+
+
+.final-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: rgba(6, 13, 16, 1);
+}
+
+.join {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 167%;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: right;
+  color:rgba(255, 255, 255, 1);
+}
+
+.social-logo {
+  color: rgba(255, 255, 255, 1);
+}
