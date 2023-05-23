@@ -8,16 +8,17 @@
   <title>ski-school</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
 
 
   <header>
     <div class="container">
-      <nav>
-        <a class="button-start" href="">Начать учиться</a>
-        <a href="" class="logo">skiing school</a>
+      <div class="header-wrap">
+        <a href="" class="btn">Начать учиться</a>
+        <a href=""> <img src="/images/skiing-logo.svg" alt="SKIING SCHOOL" class="header-logo"></a>
         <a class="phone-number" href="">+7 800 800-00-00</a>
-      </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -33,31 +34,49 @@
 
 
     <section class="service">
-      <div class="container"><h1 class="service-title">Учиться с нами увлекательно и эффективно</h1>
-        <ul>
-          <li>
-            <h2 class="service-subtitle">Мы профи</h2>
-            <p class="service-text">Наши инструктора - мастера <br> спорта, призеры российских <br> и международных стартов.</p>
+      <div class="container">
+        <h1 class="service-title">Учиться с нами увлекательно и эффективно</h1>
+        <ul class="service-list">
+          <li class="service-item">
+            <div class="service-card">
+              <h2 class="service-subtitle">Мы профи</h2>
+              <p class="service-text">Наши инструктора - мастера <br> спорта, призеры российских <br> и международных
+                стартов.</p>
+            </div>
           </li>
-          <li>
-            <h2 class="service-subtitle">2000+</h2>
-            <p class="service-text">Довольных райдеров <br> рассекает на заснеженных <br> склонах. И это наша заслуга :)</p>
+          <li class="service-item">
+            <div class="service-card">
+              <h2 class="service-subtitle">2000+</h2>
+              <p class="service-text">Довольных райдеров <br> рассекает на заснеженных <br> склонах. И это наша заслуга
+              </p>
+            </div>
           </li>
-          <li>
-            <h2 class="service-subtitle">Учим 365 дней в году</h2>
-            <p class="service-text">У нас есть крутой тренажер, <br> имитирующий реальный <br> склон площадью 50м. кв</p>
+          <li class="service-item">
+            <div class="service-card">
+              <h2 class="service-subtitle">Учим 365 дней в году</h2>
+              <p class="service-text">У нас есть крутой тренажер, <br> имитирующий реальный <br> склон площадью 50м. кв
+              </p>
+            </div>
           </li>
-          <li>
-            <h2 class="service-subtitle">20+</h2>
-            <p class="service-text">Наград завоевали наши <br> ученики на регионалных и <br> международных <br> соревнованиях</p>
+          <li class="service-item">
+            <div class="service-card">
+              <h2 class="service-subtitle">20+</h2>
+              <p class="service-text">Наград завоевали наши <br> ученики на регионалных и <br> международных <br>
+                соревнованиях</p>
+            </div>
           </li>
-          <li>
-            <h2 class="service-subtitle">Подари лыжу</h2>
-            <p class="service-text">Наш благотворительный <br> проект - помогаем сиротам <br> приобщиться к спорту и <br> наладить жизнь</p>
+          <li class="service-item">
+            <div class="service-card">
+              <h2 class="service-subtitle">Подари лыжу</h2>
+              <p class="service-text">Наш благотворительный <br> проект - помогаем сиротам <br> приобщиться к спорту и
+                <br> наладить жизнь
+            </div>
           </li>
-          <li>
-            <h2 class="service-subtitle">Закрытый клуб</h2>
-            <p class="service-text">Наши студенты попадают на <br> закрытые мастер-классы и <br> вечеринки</p>
+          <li class="service-item">
+            <div class="service-card">
+              <h2 class="service-subtitle">Закрытый клуб</h2>
+              <p class="service-text">Наши студенты попадают на <br> закрытые мастер-классы и <br> вечеринки</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -68,12 +87,14 @@
       <div class="container">
         <h1 class="final-title">гоу! покорять склоны вместе</h1>
         <nav>
-          <a class="final-button" href="">Начать учиться</a>
+          <button class="btn btn-transparent">Начать учиться</button>
         </nav>
-        <img src="/images/skiing-together.jpg" alt="" height="297" width="297">
-        <img src="/images/ski-down.jpg" alt="" height="297" width="297">
-        <img src="/images/ski-up.jpg" alt="" height="297" width="297">
-        <img src="/images/ski-trick.jpg" alt="" height="297" width="297">
+        <div class="final-visual">
+          <img class="ski-photo" src="/images/skiing-together.jpg" alt="" height="297" width="297">
+          <img class="ski-photo" src="/images/ski-down.jpg" alt="" height="297" width="297">
+          <img class="ski-photo" src="/images/ski-up.jpg" alt="" height="297" width="297">
+          <img class="ski-photo" src="/images/ski-trick.jpg" alt="" height="297" width="297">
+        </div>
       </div>
     </section>
   </main>
@@ -81,14 +102,24 @@
 
   <footer>
     <div class="container">
-      <p class="join">Присоединяйся</p>
-      <nav>
-        <img class="social-logo" src="/images/logo-twitter.svg">twitter</img>
-        <img class="social-logo" src="/images/logo-in.svg">In</img>
-        <img class="social-logo" src="/images/logo-google.svg">G+</img>
-        <img class="social-logo" src="/images/logo-facebook.svg">facebook</img>
-      </nav>
-      <p class="copyright">copy+v copy+c © 2021</p>
+      <div class="footer-wrap">
+        <a href="#" class="join">Присоединяйся</a>
+        <ul class="social">
+          <li class="social-item">
+            <a href="#" class="social-link" style="background-image: url('images/logo-twitter.svg');"></a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link" style="background-image: url('images/logo-in.svg');"></a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link" style="background-image: url('images/logo-google.svg');"></a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link" style="background-image: url('images/logo-facebook.svg');"></a>
+          </li>
+        </ul>
+        <p class="copyright">copy+v copy+c © 2021</p>
+      </div>
     </div>
   </footer>
 </body>
